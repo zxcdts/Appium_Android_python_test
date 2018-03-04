@@ -2244,3 +2244,114 @@ TypeError: swipe() takes at least 4 arguments (1 given)
 2018-03-04 16:47:59 TestUsedcarApp.py[line:169] INFO 步骤“跳转到首页”执行通过！
 2018-03-04 16:48:04 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待成功”执行通过！
 2018-03-04 16:48:07 TestUsedcarApp.py[line:169] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 16:51:47 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 16:52:05 TestUsedcarApp.py[line:170] INFO 步骤“打开app”执行通过！
+2018-03-04 16:52:08 TestUsedcarApp.py[line:170] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 16:52:13 TestUsedcarApp.py[line:170] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:52:16 TestUsedcarApp.py[line:170] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 16:52:17 TestUsedcarApp.py[line:170] INFO 步骤“点击城市”执行通过！
+2018-03-04 16:52:17 TestUsedcarApp.py[line:170] INFO 步骤“城市列表滑动”执行通过！
+2018-03-04 16:52:18 TestUsedcarApp.py[line:170] INFO 步骤“城市列表滑动到西藏”执行通过！
+2018-03-04 16:52:19 TestUsedcarApp.py[line:170] INFO 步骤“点击进入西藏城市”执行通过！
+2018-03-04 16:52:20 TestUsedcarApp.py[line:170] INFO 步骤“点击进入阿里”执行通过！
+2018-03-04 16:52:22 TestUsedcarApp.py[line:170] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-04 16:52:25 TestUsedcarApp.py[line:170] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:52:25 TestUsedcarApp.py[line:170] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-04 16:52:25 TestUsedcarApp.py[line:170] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-04 16:52:29 TestUsedcarApp.py[line:170] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:52:29 TestUsedcarApp.py[line:170] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-04 16:52:35 TestUsedcarApp.py[line:170] INFO 步骤“截图留作验证”执行通过！
+2018-03-04 16:52:39 TestUsedcarApp.py[line:170] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-04 16:52:39 TestUsedcarApp.py[line:170] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-04 16:52:42 TestUsedcarApp.py[line:170] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:52:49 TestUsedcarApp.py[line:163] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 147, in TestUsedcarApp
+    eval(expressionStr1)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 136, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-04 16:52:49 TestUsedcarApp.py[line:180] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-04 20:55:09 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 20:55:28 TestUsedcarApp.py[line:151] INFO 步骤“打开app”执行通过！
+2018-03-04 20:55:30 TestUsedcarApp.py[line:151] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 20:55:35 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 20:55:39 TestUsedcarApp.py[line:151] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 20:55:41 TestUsedcarApp.py[line:151] INFO 步骤“点击城市”执行通过！
+2018-03-04 20:55:41 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动”执行通过！
+2018-03-04 20:55:42 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动到西藏”执行通过！
+2018-03-04 20:55:44 TestUsedcarApp.py[line:151] INFO 步骤“点击进入西藏城市”执行通过！
+2018-03-04 20:55:46 TestUsedcarApp.py[line:151] INFO 步骤“点击进入阿里”执行通过！
+2018-03-04 20:55:47 TestUsedcarApp.py[line:151] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-04 20:55:50 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 20:55:51 TestUsedcarApp.py[line:151] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-04 20:55:52 TestUsedcarApp.py[line:151] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-04 20:55:55 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:00:44 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 21:01:27 TestUsedcarApp.py[line:151] INFO 步骤“打开app”执行通过！
+2018-03-04 21:01:30 TestUsedcarApp.py[line:151] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 21:01:35 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:01:38 TestUsedcarApp.py[line:151] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 21:01:40 TestUsedcarApp.py[line:151] INFO 步骤“点击城市”执行通过！
+2018-03-04 21:01:41 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动”执行通过！
+2018-03-04 21:01:41 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动到西藏”执行通过！
+2018-03-04 21:01:42 TestUsedcarApp.py[line:151] INFO 步骤“点击进入西藏城市”执行通过！
+2018-03-04 21:01:43 TestUsedcarApp.py[line:151] INFO 步骤“点击进入阿里”执行通过！
+2018-03-04 21:01:45 TestUsedcarApp.py[line:151] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-04 21:01:47 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:01:47 TestUsedcarApp.py[line:151] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-04 21:01:47 TestUsedcarApp.py[line:151] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-04 21:01:52 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:01:53 TestUsedcarApp.py[line:151] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-04 21:01:59 TestUsedcarApp.py[line:151] INFO 步骤“截图留作验证”执行通过！
+2018-03-04 21:02:02 TestUsedcarApp.py[line:151] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-04 21:02:03 TestUsedcarApp.py[line:151] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-04 21:02:06 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:02:13 TestUsedcarApp.py[line:144] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 128, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 148, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-04 21:02:13 TestUsedcarApp.py[line:161] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-04 21:02:22 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 21:02:48 TestUsedcarApp.py[line:151] INFO 步骤“打开app”执行通过！
+2018-03-04 21:02:51 TestUsedcarApp.py[line:151] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 21:02:56 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:02:58 TestUsedcarApp.py[line:151] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 21:03:00 TestUsedcarApp.py[line:151] INFO 步骤“点击城市”执行通过！
+2018-03-04 21:03:01 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动”执行通过！
+2018-03-04 21:03:01 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动到西藏”执行通过！
+2018-03-04 21:03:02 TestUsedcarApp.py[line:151] INFO 步骤“点击进入西藏城市”执行通过！
+2018-03-04 21:03:03 TestUsedcarApp.py[line:151] INFO 步骤“点击进入阿里”执行通过！
+2018-03-04 21:03:05 TestUsedcarApp.py[line:151] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-04 21:03:08 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:03:08 TestUsedcarApp.py[line:151] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-04 21:03:08 TestUsedcarApp.py[line:151] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-04 21:03:13 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:03:16 TestUsedcarApp.py[line:151] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-04 21:03:22 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 21:03:47 TestUsedcarApp.py[line:151] INFO 步骤“打开app”执行通过！
+2018-03-04 21:03:50 TestUsedcarApp.py[line:151] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 21:03:55 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:03:58 TestUsedcarApp.py[line:151] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 21:04:15 TestUsedcarApp.py[line:151] INFO 步骤“点击城市”执行通过！
+2018-03-04 21:04:15 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动”执行通过！
+2018-03-04 21:04:16 TestUsedcarApp.py[line:151] INFO 步骤“城市列表滑动到西藏”执行通过！
+2018-03-04 21:04:16 TestUsedcarApp.py[line:151] INFO 步骤“点击进入西藏城市”执行通过！
+2018-03-04 21:04:18 TestUsedcarApp.py[line:151] INFO 步骤“点击进入阿里”执行通过！
+2018-03-04 21:04:19 TestUsedcarApp.py[line:151] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-04 21:04:21 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:04:22 TestUsedcarApp.py[line:151] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-04 21:04:22 TestUsedcarApp.py[line:151] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-04 21:04:27 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:04:28 TestUsedcarApp.py[line:151] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-04 21:04:33 TestUsedcarApp.py[line:151] INFO 步骤“截图留作验证”执行通过！
+2018-03-04 21:04:37 TestUsedcarApp.py[line:151] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-04 21:04:38 TestUsedcarApp.py[line:151] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-04 21:04:41 TestUsedcarApp.py[line:151] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 21:04:42 TestUsedcarApp.py[line:151] INFO 步骤“验证是否收藏成功”执行通过！
+2018-03-04 21:04:42 TestUsedcarApp.py[line:161] INFO 共3条用例，1条需要被执行，本次执行通过1条。

@@ -116,27 +116,9 @@ def TestUsedcarApp():
                         else:
                             expressionList.append("','".join(list_operateValue))
                     if len(expressionList) > 0:
-                        print 'join方法', keyWord + "(u'" + "',u'".join(expressionList) + "')"
+                        expressionStr = keyWord + "(u'" + "',u'".join(expressionList) + "')"
                     else:
-                        print 'join方法', keyWord + "()"
-
-                    expressionStr = ""
-                    # 构造需要执行的python语句，
-                    # 对应的是PageAction.py文件中的页面动作函数调用的字符串表示
-                    if keyWord and operateValue and locationType is None and locatorExpression is None:
-                        list_operateValue = operateValue.split(',')
-                        if len(list_operateValue) == 1:
-                            expressionStr = keyWord.strip() + "(u'" + operateValue + "')"
-                        else:
-                            expressionStr = keyWord.strip() + "(" + ','.join(list_operateValue) + ")"
-                    elif keyWord and operateValue is None and locationType is None and locatorExpression is None:
-                        expressionStr = keyWord.strip() + "()"
-                    elif keyWord and locationType and locatorExpression and operateValue:
-                        expressionStr = keyWord.strip() + "('" + locationType.strip() + "', '" + locatorExpression.replace(
-                            "'", '"').strip() + "', u'" + operateValue + "')"
-                    elif keyWord and locationType and locatorExpression and operateValue is None:
-                        expressionStr = keyWord.strip() + "('" + locationType.strip() + "', '" + locatorExpression.replace(
-                            "'", '"').strip() + "')"
+                        expressionStr = keyWord + "()"
                     print expressionStr
                     try:
                         # 通过eval函数，将拼接的页面动作函数调用的字符串表示

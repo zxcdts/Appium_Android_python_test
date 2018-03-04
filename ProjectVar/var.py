@@ -21,7 +21,8 @@ app_Path = project_path + '/app/usedcar_be_ta.apk'
 platformName = 'Android'
 platformVersion = '6.0'
 deviceName = 'MZJZFQS8WOFEP7'
-noReset = 'True'
+noReset = 'true'
+nativeWebTap = 'true'
 
 driver_remote = 'http://localhost:4723/wd/hub'
 

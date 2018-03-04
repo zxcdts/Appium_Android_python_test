@@ -33,3 +33,19 @@ def getElementByWithoutWait(driver, locationType, locatorExpression):
         return element
     except Exception, e:
         raise e
+
+
+def getElementsBy(driver, locationType, locatorExpression):
+    try:
+        if locationType == 'id':
+            element = WebDriverWait(driver, 15).until(lambda x: x.find_elements_by_id(locatorExpression))
+        elif locationType == 'accessibility_id':
+            element = WebDriverWait(driver, 15).until(lambda x: x.find_elements_by_accessibility_id(locatorExpression))
+        elif locationType == 'xpath':
+            element = WebDriverWait(driver, 15).until(lambda x: x.find_elements_by_xpath(locatorExpression))
+        elif locationType == 'link_text':
+            element = WebDriverWait(driver, 15).until(lambda x: x.find_elements_by_partial_link_text(locatorExpression))
+        return element
+    except Exception, e:
+        raise e
+

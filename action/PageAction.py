@@ -4,6 +4,7 @@ from appium import webdriver
 from util import Log
 from util.ObjectMap import *
 from util.DirAndTime import *
+from appium.webdriver.common.touch_action import TouchAction
 
 # 定义全局driver变量
 driver = None
@@ -19,6 +20,7 @@ def open_app():
         desired_caps['deviceName'] = deviceName
         desired_caps['app'] = app_Path
         desired_caps['noReset'] = noReset
+        desired_caps['nativeWebTap'] = nativeWebTap
 
         driver = webdriver.Remote(driver_remote, desired_caps)
         return driver
@@ -56,6 +58,16 @@ def click(locationType, locatorExpression, *arg):
     global driver
     try:
         getElementBy(driver, locationType, locatorExpression).click()
+    except Exception, e:
+        raise e
+
+
+# 查找元素集，并点击第一个，需要参数为定位类型与定位表达式
+def click_first(locationType, locatorExpression, *arg):
+    # 点击页面元素
+    global driver
+    try:
+        getElementsBy(driver, locationType, locatorExpression)[0].click()
     except Exception, e:
         raise e
 
@@ -199,3 +211,46 @@ def switch_to_context(context):
     except Exception, e:
         raise e
 
+
+# 执行js代码
+def execute_jsscript(locatorExpression):
+    global driver
+    try:
+        driver.execute_script("window.document.getElementById('" + locatorExpression + "').click()")
+    except Exception, e:
+        raise e
+
+
+# 通过坐标点进行点击
+def click_location(locationType, locatorExpression, *arg):
+    # 点击页面元素
+    global driver
+    try:
+        element = getElementBy(driver, locationType, locatorExpression)
+        TouchAction(driver).tap(x=element.location.get('x'), y=element.location.get('y')).perform()
+    except Exception, e:
+        raise e
+
+
+# long_press(int x, int y)长按元素 Android订阅的修改可以使用
+def long_press_location(locationType, locatorExpression, press_time=1000):
+    # 点击页面元素
+    global driver
+    try:
+        element = getElementBy(driver, locationType, locatorExpression)
+        TouchAction(driver).long_press(x=element.location.get('x'), y=element.location.get('y'),
+                                       duration=press_time).perform()
+    except Exception, e:
+        raise e
+
+
+# iOS 编辑订阅点击并滑动
+def move_to_location(locationType, locatorExpression, *arg):
+    # 点击页面元素
+    global driver
+    try:
+        element = getElementBy(driver, locationType, locatorExpression)
+        TouchAction(driver).press(x=element.location.get('x'), y=element.location.get('y')).move_to(
+            x=element.location.get('x'), y=element.location.get('y')-100).perform()
+    except Exception, e:
+        raise e
