@@ -161,7 +161,7 @@ class ParseExcel(object):
 
 if __name__ == '__main__':
     pe = ParseExcel()
-    pe.loadWorkBook(u'e:\\126邮箱联系人.xlsx')
+    pe.loadWorkBook(u'/Users/zhangbingwei/workspace/Appium_Android_python_test/testData/二手车测试用例.xlsx')
     print "通过名称获取sheet对象的名字：", pe.getSheetByName(u"联系人").title
     print "通过index序号获取sheet对象的名字：", pe.getSheetByIndex(0).title
     sheet = pe.getSheetByIndex(0)

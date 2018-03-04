@@ -10,6 +10,9 @@ Logger_conf_path = project_path + '/Conf/Logger.conf'
 # 异常截图存放目录绝对路径
 screenPicturesDir = project_path + "/exceptionpictures/"
 
+# 异常截图存放目录绝对路径
+correctpictures = project_path + "/correctpictures/"
+
 # 测试数据文件存放绝对路径
 dataFilePath = project_path + u"/testData/二手车测试用例.xlsx"
 

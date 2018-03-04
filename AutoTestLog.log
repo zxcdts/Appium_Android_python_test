@@ -433,3 +433,1814 @@ TimeoutException: Message:
 AssertionError: 立即登录 not found in page source!
 
 2018-03-02 20:59:55 TestUsedcarApp.py[line:160] INFO 共3条用例，3条需要被执行，本次执行通过2条。
+2018-03-02 22:59:20 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 22:59:42 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 22:59:45 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 22:59:46 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 22:59:47 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 22:59:48 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 22:59:48 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 22:59:52 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 22:59:52 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 22:59:59 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:00:09 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:00:10 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:00:15 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:00:20 TestUsedcarApp.py[line:147] INFO 步骤“验证是否登录成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 133, in assert_string_notin_pagesource
+    raise AssertionError(e)
+AssertionError: 立即登录 found in page source!
+
+2018-03-02 23:00:20 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:00:23 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:00:28 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:00:29 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-02 23:00:31 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-02 23:00:31 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-02 23:00:32 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-02 23:00:34 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-02 23:00:41 TestUsedcarApp.py[line:147] INFO 步骤“滑动详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+TypeError: swipe() takes at least 4 arguments (1 given)
+
+2018-03-02 23:00:46 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:00:46 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-02 23:00:49 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:00:54 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:00:55 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:00:57 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-02 23:03:13 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:03:34 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:03:36 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:03:38 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:03:42 TestUsedcarApp.py[line:147] INFO 步骤“滑动详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+TypeError: swipe() takes at least 4 arguments (1 given)
+
+2018-03-02 23:03:47 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:03:48 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:03:49 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:03:49 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:04:30 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:04:56 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:05:00 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:05:01 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:05:41 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:06:05 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:06:08 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:06:10 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:06:11 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:06:16 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:06:17 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:06:18 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:06:19 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:06:22 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:06:23 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:08:10 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:08:37 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:08:37 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:08:52 TestUsedcarApp.py[line:147] INFO 步骤“如果存在心愿单则跳过”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 99, in skip_ad_wish
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-02 23:08:57 TestUsedcarApp.py[line:147] INFO 步骤“滑动详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 71, in swipe
+    raise e
+WebDriverException: Message: An unknown server-side error occurred while processing the command.
+
+
+2018-03-02 23:08:58 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:08:59 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:08:59 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:09:03 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:09:04 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:09:11 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:09:20 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:09:21 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:09:26 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:09:27 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-02 23:09:27 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:09:31 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:09:36 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:11:03 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:11:22 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:11:25 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:11:26 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:11:30 TestUsedcarApp.py[line:147] INFO 步骤“滑动详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 71, in swipe
+    raise e
+WebDriverException: Message: An unknown server-side error occurred while processing the command.
+
+
+2018-03-02 23:11:35 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:11:36 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:11:37 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:11:37 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:11:41 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:11:43 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:14:03 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:14:21 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:14:24 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:14:26 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:14:26 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:14:31 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:14:33 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:14:33 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:14:34 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:14:37 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:14:38 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:14:46 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:14:54 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:14:55 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:15:00 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:15:01 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-02 23:15:01 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:15:04 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:15:10 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:15:13 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-02 23:15:15 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-02 23:15:16 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-02 23:15:17 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-02 23:15:18 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-02 23:15:19 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:15:24 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:15:24 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-02 23:15:27 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:15:32 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:15:34 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:15:36 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-02 23:15:37 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-02 23:15:38 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-02 23:15:41 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-02 23:15:41 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:15:41 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过3条。
+2018-03-02 23:16:28 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:16:52 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:16:55 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:16:57 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:17:02 TestUsedcarApp.py[line:147] INFO 步骤“滑动详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 71, in swipe
+    raise e
+WebDriverException: Message: An unknown server-side error occurred while processing the command.
+
+
+2018-03-02 23:17:07 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:17:08 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:17:09 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:17:09 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:17:42 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:18:05 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:18:05 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:18:22 TestUsedcarApp.py[line:147] INFO 步骤“如果存在心愿单则跳过”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 99, in skip_ad_wish
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-02 23:18:23 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:18:28 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:18:29 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:18:30 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:18:30 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:18:34 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:18:34 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:18:41 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:18:50 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:18:51 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:18:56 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:18:57 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-02 23:18:57 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:19:00 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:19:05 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:19:09 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-02 23:19:11 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-02 23:19:12 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-02 23:19:13 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-02 23:19:16 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-02 23:19:16 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:19:21 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:19:21 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-02 23:19:24 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:19:29 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:19:34 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:19:34 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-02 23:19:35 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-02 23:19:36 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-02 23:19:38 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-02 23:19:39 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:19:39 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过2条。
+2018-03-02 23:20:31 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:20:54 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:20:57 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:20:58 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:20:59 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-02 23:21:04 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:21:05 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:21:05 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:21:06 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:21:10 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:21:10 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:21:18 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:21:26 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:21:27 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:21:32 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:21:33 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-02 23:21:33 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:21:36 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:21:41 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:21:46 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-02 23:21:47 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-02 23:21:48 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-02 23:21:49 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-02 23:21:51 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-02 23:21:51 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:21:56 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:21:56 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-02 23:21:59 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:22:05 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:22:06 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:22:08 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-02 23:22:09 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-02 23:22:10 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-02 23:22:12 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-02 23:22:13 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:22:13 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过3条。
+2018-03-02 23:28:49 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:29:07 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:29:10 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:29:11 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-02 23:29:12 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-02 23:29:17 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:29:19 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:29:19 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:29:20 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:29:24 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:29:24 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:29:31 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:29:40 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:29:41 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:29:46 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:29:47 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-02 23:29:47 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:29:50 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:29:55 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:29:56 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-02 23:29:58 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-02 23:30:00 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-02 23:30:01 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-02 23:30:03 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-02 23:30:03 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:30:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:30:08 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-02 23:30:11 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:30:16 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:30:19 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:30:20 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-02 23:30:21 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-02 23:30:22 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-02 23:30:24 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-02 23:30:25 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:30:25 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过3条。
+2018-03-02 23:30:52 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-02 23:31:18 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-02 23:31:19 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-02 23:31:35 TestUsedcarApp.py[line:147] INFO 步骤“如果存在心愿单则跳过”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 99, in skip_ad_wish
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-02 23:31:35 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-02 23:31:40 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:31:41 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:31:42 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-02 23:31:42 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:31:46 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-02 23:31:46 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-02 23:31:55 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-02 23:32:04 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-02 23:32:05 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-02 23:32:10 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-02 23:32:10 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-02 23:32:10 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-02 23:32:14 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:32:19 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:32:21 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-02 23:32:23 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-02 23:32:24 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-02 23:32:25 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-02 23:32:30 TestUsedcarApp.py[line:147] INFO 步骤“进入H5前”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 175, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-02 23:32:31 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-02 23:32:37 TestUsedcarApp.py[line:147] INFO 步骤“进入H5后”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 175, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-02 23:32:37 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-02 23:32:43 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:32:43 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-02 23:32:46 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-02 23:32:51 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-02 23:32:53 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-02 23:32:55 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-02 23:32:56 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-02 23:32:57 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-02 23:32:59 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-02 23:33:00 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-02 23:33:00 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过1条。
+2018-03-03 13:00:22 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 13:00:45 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 13:00:48 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 13:00:50 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 13:00:51 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 13:00:56 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 13:00:57 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 13:00:57 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 13:00:58 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 13:01:02 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 13:01:02 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 13:01:09 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 13:01:19 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 13:01:20 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 13:01:25 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 13:01:25 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 13:01:25 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:01:28 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:01:33 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:01:35 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 13:01:36 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 13:01:37 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 13:01:38 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 13:01:42 TestUsedcarApp.py[line:147] INFO 步骤“进入H5前”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 175, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:01:43 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 13:01:46 TestUsedcarApp.py[line:147] INFO 步骤“进入H5后”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 175, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:01:47 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 13:01:52 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:01:52 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-03 13:01:54 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:02:00 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:02:01 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 13:02:02 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-03 13:02:03 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-03 13:02:04 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-03 13:02:07 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-03 13:02:07 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 13:02:07 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过2条。
+2018-03-03 13:05:01 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:07:44 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:08:02 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 13:08:05 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:08:10 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:08:14 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 13:08:16 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 13:08:17 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 13:08:18 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 13:08:23 TestUsedcarApp.py[line:147] INFO 步骤“进入H5前”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 175, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:08:24 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 13:08:29 TestUsedcarApp.py[line:147] INFO 步骤“进入H5后”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 175, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:08:29 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 13:08:34 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:08:34 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 13:12:36 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:12:54 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 13:12:57 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:13:02 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:13:21 TestUsedcarApp.py[line:147] INFO 步骤“点击买车，进入买车列表”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+2018-03-03 13:13:30 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 13:13:31 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 13:13:32 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 13:13:37 TestUsedcarApp.py[line:147] INFO 步骤“进入H5前”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 173, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:13:38 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 13:13:44 TestUsedcarApp.py[line:147] INFO 步骤“进入H5后”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 173, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:13:44 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 13:13:49 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:13:49 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 13:15:04 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:15:22 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 13:15:25 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:15:30 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:15:34 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 13:15:35 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 13:15:36 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 13:15:37 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 13:15:42 TestUsedcarApp.py[line:147] INFO 步骤“进入H5前”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 174, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:15:43 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 13:15:48 TestUsedcarApp.py[line:147] INFO 步骤“进入H5后”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 174, in get_context
+    raise e
+TypeError: 'unicode' object is not callable
+
+2018-03-03 13:15:49 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 13:15:54 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:15:54 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 13:16:27 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:16:54 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 13:16:58 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:17:03 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:17:04 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 13:17:05 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 13:17:06 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 13:17:07 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 13:17:07 Log.py[line:18] INFO ['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdecimal', 'isdigit', 'islower', 'isnumeric', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+2018-03-03 13:17:08 TestUsedcarApp.py[line:154] INFO 步骤“进入H5前”执行通过！
+2018-03-03 13:17:09 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 13:17:09 Log.py[line:18] INFO ['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__getslice__', '__gt__', '__hash__', '__init__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '_formatter_field_name_split', '_formatter_parser', 'capitalize', 'center', 'count', 'decode', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'index', 'isalnum', 'isalpha', 'isdecimal', 'isdigit', 'islower', 'isnumeric', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+2018-03-03 13:17:09 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 13:17:09 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 13:17:15 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:17:15 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过1条。
+2018-03-03 13:18:14 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 13:18:34 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 13:18:36 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 13:18:41 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:18:43 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 13:19:00 TestUsedcarApp.py[line:147] INFO 步骤“点击城市”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 13:19:16 TestUsedcarApp.py[line:147] INFO 步骤“进入搜索页面”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 13:19:23 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 13:19:23 TestUsedcarApp.py[line:154] INFO 步骤“进入H5前”执行通过！
+2018-03-03 13:19:32 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 13:19:33 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 13:19:33 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 13:19:38 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 13:19:38 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 14:09:23 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:09:47 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:09:50 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:09:55 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:09:59 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:10:00 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:10:01 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:10:03 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:10:05 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:10:11 TestUsedcarApp.py[line:147] INFO 步骤“进入H5后”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 184, in switch_to_context
+    raise e
+NoSuchContextException: Message: No such context found.
+
+
+2018-03-03 14:10:12 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:10:22 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:10:22 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 14:11:06 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:11:25 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:11:28 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:11:33 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:11:34 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:11:36 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:11:38 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:11:39 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:11:40 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:11:45 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:11:46 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:14:25 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:15:05 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:15:08 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:15:13 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:15:15 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:15:18 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:15:19 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:15:20 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:15:22 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:15:25 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:15:26 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:17:32 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:17:54 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:17:56 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:18:01 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:18:05 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:18:06 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:18:07 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:18:08 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:18:09 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:18:13 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:18:13 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:18:14 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:18:19 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:18:19 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过1条。
+2018-03-03 14:18:45 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:19:08 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:19:11 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:19:16 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:19:19 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:19:21 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:19:22 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:19:23 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:19:24 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:19:27 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:19:28 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:20:17 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:20:40 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:20:43 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:20:48 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:20:50 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:20:52 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:20:54 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:20:55 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:20:57 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:21:00 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:21:06 TestUsedcarApp.py[line:147] INFO 步骤“滑动详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+TypeError: swipe() takes at least 4 arguments (1 given)
+
+2018-03-03 14:22:23 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:22:47 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:22:50 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:22:55 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:22:57 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:22:59 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:23:00 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:23:01 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:23:05 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:23:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:23:08 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:23:10 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:23:15 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:23:15 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过1条。
+2018-03-03 14:25:23 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:25:42 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:25:45 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:25:50 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:25:53 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:25:54 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:25:55 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:25:56 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:25:58 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:26:01 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:26:02 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:26:03 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:26:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:26:08 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过1条。
+2018-03-03 14:26:24 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:26:53 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:26:56 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:27:01 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:27:04 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:27:05 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:27:07 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:27:08 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:27:09 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:27:12 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:27:13 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:27:14 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:27:19 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:27:20 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过1条。
+2018-03-03 14:28:05 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:28:28 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:28:31 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:28:36 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:28:41 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:28:42 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:28:43 TestUsedcarApp.py[line:154] INFO 步骤“进入搜索页面”执行通过！
+2018-03-03 14:28:44 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:28:46 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:28:49 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:28:49 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页”执行通过！
+2018-03-03 14:28:51 TestUsedcarApp.py[line:154] INFO 步骤“进入H5后”执行通过！
+2018-03-03 14:28:56 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:28:56 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过1条。
+2018-03-03 14:53:46 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:54:10 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:54:13 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:54:18 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:54:22 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:54:24 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:54:26 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 14:54:27 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:54:29 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:54:33 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:54:33 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 14:54:34 TestUsedcarApp.py[line:154] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-03 14:54:38 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:57:48 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 14:58:30 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 14:58:34 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 14:58:39 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:58:40 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 14:58:43 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 14:58:44 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 14:58:45 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 14:58:47 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:58:50 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:58:50 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 14:58:53 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 14:58:54 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 14:58:58 TestUsedcarApp.py[line:147] INFO 步骤“截图留作验证”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 77, in capture_screen
+    time.sleep(picture_num)
+TypeError: a float is required
+
+2018-03-03 14:59:02 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 14:59:03 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 14:59:09 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 120, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 14:59:09 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 15:18:27 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:18:50 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:18:53 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:18:58 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:19:00 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:19:04 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 15:19:04 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 15:19:05 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 15:19:07 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 15:19:10 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:19:11 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 15:19:14 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:19:14 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 15:19:18 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 15:19:22 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 15:19:38 TestUsedcarApp.py[line:147] INFO 步骤“点击收藏按钮”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 15:19:42 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 120, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 15:19:42 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 15:23:49 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:24:08 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:24:10 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:24:15 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:24:16 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:24:17 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 15:24:18 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 15:24:19 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 15:24:21 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 15:24:24 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:24:25 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 15:24:28 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:24:40 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 15:24:47 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 15:24:48 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 15:24:49 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:24:49 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 15:24:55 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 120, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 15:24:55 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 15:25:23 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:25:46 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:25:49 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:25:54 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:25:58 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:25:59 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 15:26:00 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 15:26:01 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 15:26:03 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 15:26:06 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:26:07 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 15:26:10 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:26:10 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 15:26:16 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 15:26:19 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 15:26:21 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:26:21 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 15:26:27 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 120, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 15:26:27 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 15:28:04 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:28:22 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:28:25 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:28:30 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:28:32 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:28:48 TestUsedcarApp.py[line:147] INFO 步骤“点击城市”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 15:29:05 TestUsedcarApp.py[line:147] INFO 步骤“进入城市搜索页面”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 15:29:27 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:29:50 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:29:53 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:29:58 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:30:02 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:30:03 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 15:30:04 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 15:30:04 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 15:30:07 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 15:30:10 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:30:11 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 15:30:14 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:30:25 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 15:30:33 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 15:30:37 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 15:30:39 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:32:54 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:33:22 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:33:24 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:33:30 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:33:32 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:33:34 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 15:33:36 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 15:33:37 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 15:33:39 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 15:33:42 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:33:43 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 15:33:46 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:33:47 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 15:33:53 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 15:33:57 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 15:33:58 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:33:59 TestUsedcarApp.py[line:154] INFO 步骤“切换上下文到web”执行通过！
+2018-03-03 15:38:42 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 15:39:28 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 15:39:31 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 15:39:36 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:39:38 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 15:39:40 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 15:39:41 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 15:39:42 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 15:39:44 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 15:39:47 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:39:48 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 15:39:51 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:39:51 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 15:39:57 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 15:40:01 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 15:40:02 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 15:42:05 TestUsedcarApp.py[line:154] INFO 步骤“切换上下文到web”执行通过！
+2018-03-03 16:08:18 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 16:08:41 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 16:08:44 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:08:49 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:08:52 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 16:08:53 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 16:08:55 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 16:08:56 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 16:08:59 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 16:09:03 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:09:03 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 16:09:04 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:09:12 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 16:09:13 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 16:09:16 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:09:16 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 16:09:22 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 16:09:26 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 16:09:26 TestUsedcarApp.py[line:164] INFO 共3条用例，1条需要被执行，本次执行通过0条。
+2018-03-03 16:35:54 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 16:36:41 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 16:37:40 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 16:38:07 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 16:38:10 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 16:38:11 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 16:38:12 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 16:38:17 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:38:19 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 16:38:19 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 16:38:21 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 16:38:24 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 16:38:25 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 16:38:33 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 16:38:42 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 16:38:44 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 16:38:49 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:38:49 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 16:38:49 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 16:38:52 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:38:57 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:39:01 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 16:39:02 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 16:39:03 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 16:39:04 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 16:39:05 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 16:39:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:39:09 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 16:39:11 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:39:11 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 16:39:17 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 16:39:18 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 16:39:20 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 16:39:21 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:39:27 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 16:39:42 TestUsedcarApp.py[line:147] INFO 步骤“提交询价”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 16:39:46 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 16:39:46 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-03 16:39:50 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:39:55 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:39:56 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 16:39:58 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-03 16:39:59 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-03 16:40:00 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-03 16:40:02 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-03 16:40:04 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 16:40:04 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过2条。
+2018-03-03 16:44:40 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 16:45:05 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 16:45:08 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 16:45:09 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 16:45:10 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 16:45:15 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:45:17 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 16:45:17 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 16:45:19 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 16:45:22 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 16:45:23 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 16:45:30 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 16:45:40 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 16:45:41 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 16:45:46 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:45:47 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 16:45:47 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 16:45:50 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:45:55 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:45:57 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 16:45:59 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 16:46:00 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 16:46:01 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 16:46:02 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 16:46:06 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:46:06 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 16:46:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:46:09 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 16:46:15 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 16:46:16 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 16:46:17 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 16:46:18 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:46:24 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 16:46:25 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 16:47:20 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 16:47:45 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 16:47:49 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 16:47:50 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 16:47:51 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 16:47:56 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:47:58 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 16:47:58 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 16:48:00 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 16:48:03 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 16:48:04 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 16:48:11 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 16:48:21 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 16:48:22 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 16:48:27 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:48:27 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 16:48:28 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 16:48:31 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:48:36 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:48:38 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 16:48:40 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 16:48:42 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 16:48:43 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 16:48:44 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 16:48:47 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:48:48 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 16:48:50 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:48:51 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 16:48:56 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 16:49:00 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 16:49:00 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 16:49:01 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:49:08 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 16:49:08 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 16:49:22 TestUsedcarApp.py[line:147] INFO 步骤“提交询价”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 16:49:26 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 16:49:27 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-03 16:49:30 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:57:31 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 16:58:01 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 16:58:04 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 16:58:05 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 16:58:06 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 16:58:11 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:58:12 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 16:58:13 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 16:58:15 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 16:58:19 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 16:58:19 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 16:58:26 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 16:58:36 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 16:58:37 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 16:58:42 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 16:58:43 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 16:58:43 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 16:58:46 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:58:51 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:58:53 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 16:58:56 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 16:58:57 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 16:58:58 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 16:58:59 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 16:59:02 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:59:03 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 16:59:05 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:59:06 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 16:59:11 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 16:59:15 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 16:59:16 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 16:59:17 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:59:24 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 16:59:24 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 16:59:39 TestUsedcarApp.py[line:147] INFO 步骤“提交询价”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 16:59:43 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 16:59:43 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-03 16:59:47 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 16:59:52 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 16:59:54 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 16:59:55 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-03 16:59:56 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-03 16:59:57 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-03 16:59:59 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-03 17:00:01 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 17:00:01 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过2条。
+2018-03-03 17:02:40 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 17:02:59 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 17:02:59 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 17:03:00 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 17:03:00 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 17:03:05 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 17:03:07 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 17:03:08 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 17:03:10 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 17:03:13 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 17:03:14 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 17:03:21 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 17:03:30 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 17:03:31 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 17:03:36 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 17:03:37 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 17:03:37 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 17:03:40 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 17:03:45 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 17:03:48 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 17:03:49 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 17:03:51 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 17:03:52 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 17:03:53 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 17:03:56 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 17:03:57 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 17:03:59 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 17:04:00 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 17:04:05 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 17:05:08 TestUsedcarApp.py[line:154] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-03 17:05:11 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 20:10:37 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 20:13:25 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 20:13:49 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 20:13:53 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 20:13:54 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 20:13:55 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 20:14:00 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 20:14:01 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 20:14:01 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 20:14:03 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 20:14:06 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 20:14:07 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 20:14:14 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 20:14:23 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 20:14:24 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 20:14:29 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 20:14:29 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 20:14:29 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 20:14:32 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 20:14:37 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:14:39 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 20:14:41 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 20:14:43 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 20:14:44 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 20:14:46 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 20:14:49 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:14:49 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 20:14:52 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:15:09 TestUsedcarApp.py[line:147] INFO 步骤“点击查看全部口碑”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 20:15:15 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 20:15:18 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 20:15:18 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 20:15:19 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:15:21 TestUsedcarApp.py[line:154] INFO 步骤“验证是否收藏成功”执行通过！
+2018-03-03 20:15:21 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 20:15:36 TestUsedcarApp.py[line:147] INFO 步骤“提交询价”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 20:15:37 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 20:15:37 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-03 20:15:39 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 20:15:44 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:15:48 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 20:16:04 TestUsedcarApp.py[line:147] INFO 步骤“进入设置页面”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 20:16:09 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-03 20:16:11 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-03 20:16:13 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-03 20:16:14 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 20:16:15 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过1条。
+2018-03-03 20:23:45 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 20:24:03 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 20:24:06 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 20:24:07 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 20:24:08 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 20:24:13 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 20:24:15 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 20:24:15 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 20:24:17 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 20:24:20 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 20:24:21 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 20:24:28 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 20:24:37 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 20:24:38 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 20:24:43 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 20:24:44 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 20:24:44 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 20:24:46 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 20:24:52 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:24:53 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 20:24:55 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 20:24:56 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 20:24:57 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 20:24:59 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 20:25:02 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:25:03 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 20:25:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:25:08 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 20:25:09 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:25:16 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 20:25:17 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 20:25:22 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 20:25:25 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 20:25:29 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 20:25:29 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 20:25:44 TestUsedcarApp.py[line:147] INFO 步骤“提交询价”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 59, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 20:25:50 TestUsedcarApp.py[line:147] INFO 步骤“验证是否询价成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 121, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 成功 not found in page source!
+
+2018-03-03 20:25:50 TestUsedcarApp.py[line:89] INFO 开始执行用例“退出登录”
+2018-03-03 20:25:53 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 20:25:58 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 20:25:59 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 20:26:01 TestUsedcarApp.py[line:154] INFO 步骤“进入设置页面”执行通过！
+2018-03-03 20:26:02 TestUsedcarApp.py[line:154] INFO 步骤“退出登录状态”执行通过！
+2018-03-03 20:26:03 TestUsedcarApp.py[line:154] INFO 步骤“确认退出登录”执行通过！
+2018-03-03 20:26:05 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待退出成功”执行通过！
+2018-03-03 20:26:07 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 20:26:07 TestUsedcarApp.py[line:164] INFO 共3条用例，3条需要被执行，本次执行通过2条。
+2018-03-03 21:25:26 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 21:25:56 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 21:26:00 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 21:26:00 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 21:26:01 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 21:26:06 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 21:26:12 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 21:26:12 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 21:26:16 TestUsedcarApp.py[line:147] INFO 步骤“检查是否为登录状态”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 122, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 立即登录 not found in page source!
+
+2018-03-03 21:26:55 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 21:27:38 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 21:27:41 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 21:27:42 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 21:27:42 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 21:27:47 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 21:27:52 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 21:27:52 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 21:27:58 TestUsedcarApp.py[line:147] INFO 步骤“检查是否为登录状态”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 122, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 立即登录 not found in page source!
+
+2018-03-03 21:28:18 TestUsedcarApp.py[line:147] INFO 步骤“点击进入登录页面”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 21:43:54 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 21:44:28 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 21:44:31 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 21:44:37 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-03 21:44:40 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 21:44:41 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 21:44:46 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-03 21:44:48 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 21:44:52 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 21:44:54 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 21:44:58 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 21:44:59 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 21:45:06 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 21:45:16 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 21:45:17 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 21:45:22 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 21:45:23 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 21:45:23 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 21:45:26 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 21:45:32 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 21:45:39 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 21:45:41 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 21:45:42 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 21:46:01 TestUsedcarApp.py[line:147] INFO 步骤“点击进入城市”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 21:55:22 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 21:56:13 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 21:56:16 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 21:56:21 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-03 21:56:26 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 21:56:26 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 21:56:32 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-03 21:56:33 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 21:56:37 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 21:56:39 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 21:56:42 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 21:56:43 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 21:56:50 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 21:57:00 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 21:57:01 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 21:57:06 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 21:57:06 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 21:57:06 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 21:57:09 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 21:57:14 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 21:57:19 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 21:57:22 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 21:57:23 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 21:57:34 TestUsedcarApp.py[line:154] INFO 步骤“输入城市进行搜索”执行通过！
+2018-03-03 21:57:36 TestUsedcarApp.py[line:154] INFO 步骤“点击进入城市”执行通过！
+2018-03-03 21:57:39 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 21:57:42 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 21:57:42 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 21:57:47 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 21:57:48 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 21:58:09 TestUsedcarApp.py[line:147] INFO 步骤“点击查看全部口碑”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 21:58:16 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 21:58:19 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 21:58:19 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 21:58:21 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 21:58:22 TestUsedcarApp.py[line:154] INFO 步骤“验证是否收藏成功”执行通过！
+2018-03-03 21:58:25 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 21:58:25 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 21:58:26 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 22:01:52 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 22:02:11 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 22:02:14 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 22:02:19 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-03 22:02:20 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 22:02:21 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 22:02:26 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-03 22:02:28 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 22:02:29 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 22:02:30 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 22:02:34 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 22:02:35 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 22:02:42 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 22:02:52 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 22:02:53 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 22:02:58 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 22:02:59 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 22:02:59 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:03:02 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:03:07 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:03:15 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:03:18 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 22:03:20 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 22:04:56 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 22:05:21 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 22:05:24 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 22:05:29 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-03 22:05:30 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 22:05:30 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 22:05:36 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-03 22:05:38 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 22:05:38 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 22:05:40 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 22:05:44 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 22:05:45 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 22:05:52 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 22:06:01 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 22:06:02 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 22:06:07 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 22:06:08 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 22:06:08 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:06:11 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:06:16 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:06:23 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:06:25 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 22:06:27 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 22:08:30 TestUsedcarApp.py[line:147] INFO 步骤“输入城市进行搜索”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 163, in input_string
+    raise e
+NoSuchElementException: Message: An element could not be located on the page using the given search parameters.
+
+
+2018-03-03 22:09:40 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 22:10:04 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 22:10:08 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 22:10:13 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-03 22:10:14 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 22:10:15 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 22:10:20 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-03 22:10:21 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 22:10:21 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 22:10:23 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 22:10:28 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 22:10:28 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 22:10:36 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 22:10:45 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 22:10:46 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 22:10:51 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 22:10:52 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 22:10:52 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:10:55 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:11:00 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:11:05 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:11:07 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 22:11:08 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 22:14:55 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-03 22:15:22 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-03 22:15:26 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-03 22:15:31 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-03 22:15:32 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-03 22:15:32 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-03 22:15:38 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-03 22:15:39 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-03 22:15:39 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-03 22:15:41 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-03 22:15:45 TestUsedcarApp.py[line:154] INFO 步骤“点击进入登录页面”执行通过！
+2018-03-03 22:15:45 TestUsedcarApp.py[line:154] INFO 步骤“进入账号密码登录页面”执行通过！
+2018-03-03 22:15:51 TestUsedcarApp.py[line:154] INFO 步骤“输入用户名”执行通过！
+2018-03-03 22:15:57 TestUsedcarApp.py[line:154] INFO 步骤“输入密码”执行通过！
+2018-03-03 22:15:58 TestUsedcarApp.py[line:154] INFO 步骤“点击登录”执行通过！
+2018-03-03 22:16:03 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待登录成功”执行通过！
+2018-03-03 22:16:04 TestUsedcarApp.py[line:154] INFO 步骤“验证是否登录成功”执行通过！
+2018-03-03 22:16:04 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:16:07 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:16:12 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:16:19 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:16:21 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 22:16:22 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 22:24:14 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:25:32 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:26:32 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:26:34 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:26:40 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:26:44 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:26:45 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 22:26:47 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 22:28:14 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:28:17 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:28:22 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:28:28 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:28:30 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 22:28:33 TestUsedcarApp.py[line:154] INFO 步骤“进入城市搜索页面”执行通过！
+2018-03-03 22:31:05 TestUsedcarApp.py[line:154] INFO 步骤“输入城市进行搜索”执行通过！
+2018-03-03 22:31:14 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 22:31:17 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 22:31:22 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 22:31:28 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 22:31:31 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:14:00 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:14:03 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:14:08 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:14:14 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:14:35 TestUsedcarApp.py[line:147] INFO 步骤“点击城市”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:14:36 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:15:17 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:15:20 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:15:25 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:15:30 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:15:31 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:15:32 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:15:51 TestUsedcarApp.py[line:147] INFO 步骤“输入城市进行搜索”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 163, in input_string
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:16:10 TestUsedcarApp.py[line:147] INFO 步骤“点击西藏进入城市列表”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:16:56 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:16:59 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:17:04 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:17:09 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:17:10 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:17:11 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:18:22 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:18:25 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:18:30 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:18:35 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:18:37 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:18:38 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:19:36 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:19:39 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:19:44 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:19:50 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:19:52 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:19:53 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:20:57 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:20:59 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:21:05 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:21:13 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:21:16 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:21:17 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:23:01 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:23:04 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:23:09 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:23:15 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:23:17 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:23:17 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:23:18 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表，直到西藏出现”执行通过！
+2018-03-03 23:23:37 TestUsedcarApp.py[line:147] INFO 步骤“点击西藏进入城市列表”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:23:57 TestUsedcarApp.py[line:147] INFO 步骤“点击阿里，进入车源列表”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:24:17 TestUsedcarApp.py[line:147] INFO 步骤“点击车源进入车源详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:24:20 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:24:21 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 23:24:26 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:24:26 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 23:24:46 TestUsedcarApp.py[line:147] INFO 步骤“点击查看全部口碑”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:24:51 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 23:25:11 TestUsedcarApp.py[line:147] INFO 步骤“点击详情，回到详情页”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:25:31 TestUsedcarApp.py[line:147] INFO 步骤“点击收藏按钮”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:25:32 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:25:38 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 136, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 23:25:41 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 23:26:00 TestUsedcarApp.py[line:147] INFO 步骤“点击我要砍价”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 60, in click
+    raise e
+TimeoutException: Message: 
+
+
+2018-03-03 23:26:00 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 23:31:49 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:31:52 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:31:57 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:32:04 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:32:05 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:32:06 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:32:07 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表，直到西藏出现”执行通过！
+2018-03-03 23:32:16 TestUsedcarApp.py[line:154] INFO 步骤“点击西藏进入城市列表”执行通过！
+2018-03-03 23:32:17 TestUsedcarApp.py[line:154] INFO 步骤“点击阿里，进入车源列表”执行通过！
+2018-03-03 23:32:20 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 23:32:23 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:32:24 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 23:32:29 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:32:29 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 23:32:30 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 23:32:36 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 23:32:39 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 23:32:40 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 23:32:41 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:32:47 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 136, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 23:32:51 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 23:32:51 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 23:32:51 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 23:38:19 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-03 23:38:22 TestUsedcarApp.py[line:154] INFO 步骤“跳转到首页”执行通过！
+2018-03-03 23:38:28 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:38:34 TestUsedcarApp.py[line:154] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-03 23:38:36 TestUsedcarApp.py[line:154] INFO 步骤“点击城市”执行通过！
+2018-03-03 23:38:37 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表”执行通过！
+2018-03-03 23:38:38 TestUsedcarApp.py[line:154] INFO 步骤“滑动城市列表，直到西藏出现”执行通过！
+2018-03-03 23:38:48 TestUsedcarApp.py[line:154] INFO 步骤“点击西藏进入城市列表”执行通过！
+2018-03-03 23:38:51 TestUsedcarApp.py[line:154] INFO 步骤“点击阿里，进入车源列表”执行通过！
+2018-03-03 23:38:54 TestUsedcarApp.py[line:154] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-03 23:38:57 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:38:57 TestUsedcarApp.py[line:154] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-03 23:39:02 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:39:05 TestUsedcarApp.py[line:154] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-03 23:39:12 TestUsedcarApp.py[line:154] INFO 步骤“截图留作验证”执行通过！
+2018-03-03 23:39:16 TestUsedcarApp.py[line:154] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-03 23:39:16 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-03 23:39:17 TestUsedcarApp.py[line:154] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-03 23:39:18 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-03 23:39:23 TestUsedcarApp.py[line:147] INFO 步骤“验证是否收藏成功”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 131, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/action/PageAction.py", line 136, in assert_string_in_pagesource
+    raise AssertionError(e)
+AssertionError: 已收藏 not found in page source!
+
+2018-03-03 23:39:27 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待加载”执行通过！
+2018-03-03 23:39:27 TestUsedcarApp.py[line:154] INFO 步骤“点击我要砍价”执行通过！
+2018-03-03 23:39:27 TestUsedcarApp.py[line:154] INFO 步骤“仅获取上下文，以便操作”执行通过！
+2018-03-04 15:57:02 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-04 15:57:23 TestUsedcarApp.py[line:154] INFO 步骤“打开app”执行通过！
+2018-03-04 15:57:23 TestUsedcarApp.py[line:154] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-04 15:57:28 TestUsedcarApp.py[line:154] INFO 步骤“等待权限点击”执行通过！
+2018-03-04 15:57:29 TestUsedcarApp.py[line:154] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-04 15:57:29 TestUsedcarApp.py[line:154] INFO 步骤“首页下滑”执行通过！
+2018-03-04 15:57:35 TestUsedcarApp.py[line:154] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-04 15:57:35 TestUsedcarApp.py[line:154] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-04 15:57:36 TestUsedcarApp.py[line:154] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-04 15:57:38 TestUsedcarApp.py[line:154] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-04 16:08:23 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-04 16:11:06 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-04 16:14:11 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-04 16:14:34 TestUsedcarApp.py[line:164] INFO 步骤“打开app”执行通过！
+2018-03-04 16:14:37 TestUsedcarApp.py[line:164] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-04 16:14:42 TestUsedcarApp.py[line:164] INFO 步骤“等待权限点击”执行通过！
+2018-03-04 16:14:43 TestUsedcarApp.py[line:164] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-04 16:14:48 TestUsedcarApp.py[line:157] INFO 步骤“首页下滑”执行失败, 错误信息：Traceback (most recent call last):
+  File "/Users/zhangbingwei/workspace/Appium_Android_python_test/testScripts/TestUsedcarApp.py", line 141, in TestUsedcarApp
+    eval(expressionStr)
+  File "<string>", line 1, in <module>
+TypeError: swipe() takes at least 4 arguments (1 given)
+
+2018-03-04 16:14:54 TestUsedcarApp.py[line:164] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-04 16:14:54 TestUsedcarApp.py[line:164] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-04 16:14:55 TestUsedcarApp.py[line:164] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-04 16:14:56 TestUsedcarApp.py[line:164] INFO 步骤“检查是否为登录状态”执行通过！
+2018-03-04 16:19:09 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-04 16:21:40 TestUsedcarApp.py[line:89] INFO 开始执行用例“登录账号”
+2018-03-04 16:21:59 TestUsedcarApp.py[line:169] INFO 步骤“打开app”执行通过！
+2018-03-04 16:22:02 TestUsedcarApp.py[line:169] INFO 步骤“如果存在广告则跳过”执行通过！
+2018-03-04 16:22:08 TestUsedcarApp.py[line:169] INFO 步骤“等待权限点击”执行通过！
+2018-03-04 16:22:08 TestUsedcarApp.py[line:169] INFO 步骤“如果存在心愿单则跳过”执行通过！
+2018-03-04 16:22:09 TestUsedcarApp.py[line:169] INFO 步骤“首页下滑”执行通过！
+2018-03-04 16:22:14 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待下滑成功”执行通过！
+2018-03-04 16:22:14 TestUsedcarApp.py[line:169] INFO 步骤“点击我的，进入个人中心”执行通过！
+2018-03-04 16:22:15 TestUsedcarApp.py[line:169] INFO 步骤“如果存在钱包引导则点击”执行通过！
+2018-03-04 16:39:59 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 16:40:17 TestUsedcarApp.py[line:169] INFO 步骤“打开app”执行通过！
+2018-03-04 16:40:20 TestUsedcarApp.py[line:169] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 16:40:25 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:40:28 TestUsedcarApp.py[line:169] INFO 步骤“点击买车，进入买车列表”执行通过！
+2018-03-04 16:40:31 TestUsedcarApp.py[line:169] INFO 步骤“点击城市”执行通过！
+2018-03-04 16:40:31 TestUsedcarApp.py[line:169] INFO 步骤“城市列表滑动”执行通过！
+2018-03-04 16:40:32 TestUsedcarApp.py[line:169] INFO 步骤“城市列表滑动到西藏”执行通过！
+2018-03-04 16:40:41 TestUsedcarApp.py[line:169] INFO 步骤“点击进入西藏城市”执行通过！
+2018-03-04 16:40:42 TestUsedcarApp.py[line:169] INFO 步骤“点击进入阿里”执行通过！
+2018-03-04 16:40:45 TestUsedcarApp.py[line:169] INFO 步骤“点击车源进入车源详情页”执行通过！
+2018-03-04 16:40:48 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:40:49 TestUsedcarApp.py[line:169] INFO 步骤“滑动详情页到口碑位置”执行通过！
+2018-03-04 16:40:49 TestUsedcarApp.py[line:169] INFO 步骤“进入H5，切换上下文到web”执行通过！
+2018-03-04 16:40:52 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:40:53 TestUsedcarApp.py[line:169] INFO 步骤“点击查看全部口碑”执行通过！
+2018-03-04 16:40:59 TestUsedcarApp.py[line:169] INFO 步骤“截图留作验证”执行通过！
+2018-03-04 16:41:02 TestUsedcarApp.py[line:169] INFO 步骤“点击详情，回到详情页”执行通过！
+2018-03-04 16:41:03 TestUsedcarApp.py[line:169] INFO 步骤“点击收藏按钮”执行通过！
+2018-03-04 16:41:06 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:47:38 TestUsedcarApp.py[line:89] INFO 开始执行用例“进入车源详情页”
+2018-03-04 16:47:57 TestUsedcarApp.py[line:169] INFO 步骤“打开app”执行通过！
+2018-03-04 16:47:59 TestUsedcarApp.py[line:169] INFO 步骤“跳转到首页”执行通过！
+2018-03-04 16:48:04 TestUsedcarApp.py[line:169] INFO 步骤“休眠，等待成功”执行通过！
+2018-03-04 16:48:07 TestUsedcarApp.py[line:169] INFO 步骤“点击买车，进入买车列表”执行通过！

@@ -21,6 +21,7 @@ def open_app():
         desired_caps['noReset'] = noReset
 
         driver = webdriver.Remote(driver_remote, desired_caps)
+        return driver
     except Exception, e:
         raise e
 
@@ -72,11 +73,12 @@ def swipe(start_x, start_y, end_x, end_y, duration=None):
 
 
 # 截屏并保存图片
-def capture_screen(*args):
+def capture_screen(picture_num=0):
     # 截取屏幕图片
+    time.sleep(int(picture_num))
     global driver
     currTime = getCurrentTime()
-    picNameAndPath = str(createCurrentDateDir()) + "/" + str(currTime) + ".png"
+    picNameAndPath = str(createCurrentDateDir(picture_num)) + "/" + str(currTime) + ".png"
     try:
         driver.get_screenshot_as_file(picNameAndPath.replace('/', r'/'))
     except Exception, e:
@@ -99,6 +101,20 @@ def skip_ad_wish(locationType, locatorExpression, assertString):
         raise e
 
 
+# 如果存在则跳过钱包引导
+def skip_wallet(locationType, locatorExpression, assertString):
+    # 点击页面元素
+    global driver
+    try:
+        if assertString not in driver.page_source:
+            el = getElementBy(driver, locationType, locatorExpression)
+            el.click()
+        else:
+            pass
+    except Exception, e:
+        raise e
+
+
 # 如果存在，则全部允许
 def allow_permission(locatorExpression='com.android.packageinstaller:id/permission_allow_button'):
     global driver
@@ -112,6 +128,7 @@ def allow_permission(locatorExpression='com.android.packageinstaller:id/permissi
 
 # 断言页面源码是否存在某关键字或关键字符串
 def assert_string_in_pagesource(assertString, *arg):
+    time.sleep(1)
     global driver
     try:
         assert assertString in driver.page_source, u"%s not found in page source!" % assertString
@@ -123,6 +140,7 @@ def assert_string_in_pagesource(assertString, *arg):
 
 # 断言页面源码是否不存在某关键字或关键字符串
 def assert_string_notin_pagesource(assertString, *arg):
+    time.sleep(1)
     global driver
     try:
         if assertString not in driver.page_source:
@@ -140,7 +158,7 @@ def input_string(locationType, locatorExpression, inputContent):
     global driver
     try:
         el = getElementBy(driver, locationType, locatorExpression)
-        el.clear()
+        # el.clear()
         el.send_keys(inputContent)
     except Exception, e:
         raise e
@@ -161,3 +179,23 @@ def start_activity(app_package, app_activity, *arg):
         driver.start_activity(app_package, app_activity)
     except Exception, e:
         raise e
+
+
+# 获取当前上下文，并打印
+def get_context():
+    global driver
+    try:
+        driver.current_context
+        # contexts = driver.contexts
+    except Exception, e:
+        raise e
+
+
+# 切换上下文
+def switch_to_context(context):
+    global driver
+    try:
+        driver._switch_to.context(context)
+    except Exception, e:
+        raise e
+

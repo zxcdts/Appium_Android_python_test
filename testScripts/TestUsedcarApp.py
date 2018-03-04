@@ -105,11 +105,30 @@ def TestUsedcarApp():
                         operateValue = str(operateValue)
                     # print keyWord, locationType, locatorExpression, operateValue
 
+                    expressionList = []
+                    if locationType is not None:
+                        expressionList.append(locationType.strip())
+                        expressionList.append(locatorExpression.replace("'", '"').strip())
+                    if operateValue is not None:
+                        list_operateValue = operateValue.split(',')
+                        if len(list_operateValue) == 1:
+                            expressionList.append(operateValue)
+                        else:
+                            expressionList.append("','".join(list_operateValue))
+                    if len(expressionList) > 0:
+                        print 'join方法', keyWord + "(u'" + "',u'".join(expressionList) + "')"
+                    else:
+                        print 'join方法', keyWord + "()"
+
                     expressionStr = ""
                     # 构造需要执行的python语句，
                     # 对应的是PageAction.py文件中的页面动作函数调用的字符串表示
                     if keyWord and operateValue and locationType is None and locatorExpression is None:
-                        expressionStr = keyWord.strip() + "(u'" + operateValue + "')"
+                        list_operateValue = operateValue.split(',')
+                        if len(list_operateValue) == 1:
+                            expressionStr = keyWord.strip() + "(u'" + operateValue + "')"
+                        else:
+                            expressionStr = keyWord.strip() + "(" + ','.join(list_operateValue) + ")"
                     elif keyWord and operateValue is None and locationType is None and locatorExpression is None:
                         expressionStr = keyWord.strip() + "()"
                     elif keyWord and locationType and locatorExpression and operateValue:
@@ -118,7 +137,7 @@ def TestUsedcarApp():
                     elif keyWord and locationType and locatorExpression and operateValue is None:
                         expressionStr = keyWord.strip() + "('" + locationType.strip() + "', '" + locatorExpression.replace(
                             "'", '"').strip() + "')"
-                    # print expressionStr
+                    print expressionStr
                     try:
                         # 通过eval函数，将拼接的页面动作函数调用的字符串表示
                         # 当成有效的Python表达式执行，从而执行测试步骤的sheet中

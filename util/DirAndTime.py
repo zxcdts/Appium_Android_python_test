@@ -19,8 +19,11 @@ def getCurrentTime():
 
 
 # 创建截图存放的目录
-def createCurrentDateDir():
-    dirName = os.path.join(screenPicturesDir, getCurrentDate())
+def createCurrentDateDir(picture_num):
+    if picture_num == 0:
+        dirName = os.path.join(screenPicturesDir, getCurrentDate())
+    else:
+        dirName = os.path.join(correctpictures, getCurrentDate())
     if not os.path.exists(dirName):
         os.makedirs(dirName)
     return dirName
